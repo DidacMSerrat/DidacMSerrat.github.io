@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Didac Maroto Serrat: Portfoli</title>
+<!--LINKS-->
+ <link rel="stylesheet" href="css/style1.css">
+ <link rel="stylesheet" href="css/normalize.css"> 
+<link rel="shortcut icon" type="images/png" href="images/favicon.png"> 
+    
+<!--FONTS-->
+<link href="https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700" rel="stylesheet">
+
+    
+<div class="nom">
+<h2>
+<span>Didac Maroto</span>
+</h2>
+</div>   
+</head>
+
+    
+<body> 
+<!--BOTONS CANVI-->
+<div id="sobremi" class="tabcontent">
+  <h1>Sobre mi</h1>
+</div>
+
+<div id="mostres" class="tabcontent">
+  <h1>Mostres</h1>
+</div>
+
+<div id="cv" class="tabcontent">
+  <h1>Currículum</h1>
+</div>
+
+<div id="contacte" class="tabcontent">
+  <h1>Contacte</h1>
+</div>
+
+
+
+ <!--BOTONS-->
+ <div class="menu">
+  
+<button class="tablink" onmouseover="openCity('sobremi', this, 'forestgreen' )"  class="boto-flex actiu" onclick="window.location.href='pages/mi.html'" id="defaultOpen" >SOBRE MI</button>
+
+<button class="tablink" onmouseover="openCity('mostres', this, 'crimson')" onclick="window.location.href='pages/mostres.html'" class="boto-flex" text-align="center" id="defaultonmouseover">MOSTRES</button>
+
+<button class="tablink" onmouseover="openCity('cv', this, 'cornflowerblue')" onclick="window.location.href='pages/curriculum.html'" class="boto-flex">CURRÍCULUM</button>
+
+
+<button class="tablink" onmouseover="openCity('contacte', this, 'orange')" onclick="window.location.href='pages/contacte.html'"class="boto-flex">CONTACTE</button>
+</div>
+
+ <div class="footer">Didac Maroto Serrat · Tlf: 654 44 91 54 · didacmserrat@gmail.com</div>
+
+
+
+<script>
+function openCity(category,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(category).style.display = "block";
+  elmnt.style.backgroundColor =color;
+
+    
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").onmouseover();
+</script>
+</body>
+</html>
