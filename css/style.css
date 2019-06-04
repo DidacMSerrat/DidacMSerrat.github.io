@@ -6,25 +6,29 @@ body {font: 400 1em/1.5 "Neuton";
     text-align: center; 
     margin: 0;
     width: 97.5%%;
-    height: 590px;}
+    height: 590px;
+font-family: 'Questrial', sans-serif;}
 body2 {font: 400 1em/1.5 "Neuton"; 
    background:#1a5125; 
     color: rgba(255,255,255,.25); 
     text-align: center; 
     margin: 0; 
-    height: 700px;}
+    height: 700px;
+font-family: 'Questrial', sans-serif;}
 body3 {font: 400 1em/1.5 "Neuton"; 
    background:#1a5125; 
     color: rgba(255,255,255,.25); 
     text-align: center; 
     margin: 0; 
-    height: 700px;}
+    height: 700px;
+font-family: 'Questrial', sans-serif;}
 body4 {font: 400 1em/1.5 "Neuton"; 
    background:#1a5125; 
     color: rgba(255,255,255,.25); 
     text-align: center; 
     margin: 0; 
-    height: 550px;}
+    height: 550px;
+font-family: 'Questrial', sans-serif;}
 
 a{color:deepskyblue}
 
@@ -107,7 +111,7 @@ div {border: 1px solid grey;
 
 /*TEXT*/
 /*TEXT BARRA VERDA*/
-h1{ font-family: 'Proza Libre', sans-serif;
+h1{ font-family: 'Questrial', sans-serif;
     font-weight:700;
     background-color:#47d864;
     width:500px;
@@ -183,7 +187,7 @@ h2 {
 
 
 /*TEXT*/
-h3{ font-family: 'Proza Libre', sans-serif;
+h3{ font-family: 'Questrial', sans-serif;
     background-color:#b1efce;
     width:450px;
     border-left-color:darkgreen;
@@ -199,7 +203,7 @@ p{text-align: justify;}
 b{font-weight:700;}
 
 
-form{font-family: 'Open Sans', sans-serif;
+form{font-family: 'Questrial', sans-serif;
      font-weight:200;
      font-size:45px}
 
@@ -318,6 +322,7 @@ position: fixed;
 background-color:rgba(0,0,0, 0.8);
 width: 100%;
 bottom:0;
+    font-size:20px;
 }
 
 
